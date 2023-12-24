@@ -1,0 +1,126 @@
+<DOCTYBE html>
+<head>
+<title>Resgistration Form </title>
+ 
+ <style>
+ div{
+margin:0px auto;
+width:35%;
+padding:30px;
+font-size:20px;
+background-color:#006699;
+}
+
+input[type=text]{
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+box-sizing:border-box;
+font-size:14px;
+}
+input[type=Email]{
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+box-sizing:border-box;
+font-size:14px;
+}
+input[type=age]{
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+box-sizing:border-box;
+font-size:14px;
+}
+
+input[type=password]{
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+box-sizing:border-box;
+font-size:14px;
+}
+
+
+
+
+button[type=submit]{
+width:100%;
+background-color:#003399;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+font-size:16px;
+
+}
+button[type=submit]:hover{
+background-color:#2f4f4f;
+
+}
+h1{
+color:blue;
+text-align:center;
+
+}
+div label{
+color:white;
+}
+</style>
+
+</head>
+<body> 
+<div >
+ <h1>Registration Form</h1>
+
+ <form  action = "index.php" method="post">
+  
+<label for="textbox1" >  Name: </label>
+<input id = "textbox1" type ="text" name =" Name" maxlength="30" placeholder="UNiversity life" required/>
+ 
+
+<label for="textbox2"> Email: </label>
+<input id = "textbox2" type ="email" name =" email"  placeholder="Enter email" required/>  <br><br>
+
+ <label for="gender">gender</label><br><br><br>
+<label for="male">Male</label>
+
+<input type="radio" id = "male" name =" gender" value ="m"> 
+
+<label for="female">Female</label> 
+
+<input type="radio" id = "female" name =" gender" value ="f"> <br><br><br>
+
+<label for="textbox"> Password: </label>
+<input id = "textbox3" type ="Password" name =" Password" required/><br> <br>
+
+<label for="textbox4"> Age: </label>
+<input id = "textbox4" type ="Age" name =" Age"  placeholder="Enter your Age" required/>  <br><br>
+
+<button type="submit">login</button> 
+ 
+ 
+ </form>
+ 
+ 
+
+<script>
+alert("hello!in registration form!!");
+
+
+
+ 
+
+ </script>
+
+</body>
